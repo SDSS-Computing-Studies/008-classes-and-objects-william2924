@@ -33,8 +33,8 @@ class student:
 
     def __init__(self, name, studentNumber, grade): 
         # You will need to create your own input parameters for all methods
-        self.name = str(name)
-        slef.grade = str(grade)
+        self.name = str(name())
+        slef.grade = str(grade())
 
 
     def average(self):
