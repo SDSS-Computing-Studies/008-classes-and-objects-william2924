@@ -35,8 +35,8 @@ class student:
         # You will need to create your own input parameters for all methods
         name = input(str(name()))
         grade = input(str(grade()))
-        self.name = n
-        slef.grade = g
+        self.name = name
+        slef.grade = grade
 
 
     def average(self):
