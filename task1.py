@@ -23,31 +23,29 @@ constructor     - should require the student name, studentNumber and grade (in t
 """
 
 class student:
+    name = ""
+    studentNumber = ""
+    grade = 0
+    courses = []
+    grade = []
 
     # properties should be listed first
 
-    def __init__(): # You will need to create your own input parameters for all methods
-        pass
-
-    def __del__():
-        pass
+    def __init__(self, name, studentNumber, grade): 
+        # You will need to create your own input parameters for all methods
+        self.name = name
+        slef.grade = grade
 
     def average(self):
-        pass
+        sum = 0
 
-def main():
-    # This contains test data that will be used by the autograder.
-    # do not modify this function
+        return average
 
-    st1 = student("Anita Bath","91334",11)
-    st1.getCourses( ["English","Math","PE","Computers","History","Biology","Japanese"] )
-    st1.getGrades( [91, 94, 87, 99, 82, 100, 73])
+    def getHonorRoll(self):
+        s = slef.grade
+        s.sort(reverse = True)
+        sum = 0
 
-    st2 = student("Joe Lunchbox","12346", 11)
-    st2.getCourses( ["English","Math","Physics","Computers","Geography","Chemistry","French"] )
-    st2.getGrades( [71, 98, 93, 95, 68, 81, 71])
-
-
-
-
-main()
+    def getGrades(self, l):
+        for i in l:
+            self.grade.append()
