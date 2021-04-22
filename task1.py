@@ -36,7 +36,7 @@ class student:
         n = input(str(name()))
         g = input(str(grade()))
         self.name = n
-        slef.grade = str(grade())
+        slef.grade = g
 
 
     def average(self):
